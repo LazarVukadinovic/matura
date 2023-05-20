@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FEFA99;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Times New Roman" !important;
+}
+
+h1, h5, h2, a{
+    color: #50752D;
+}
+
+h2{
+    font-size: 42px;
+}
+
+nav{
+    width: 100%;
+    height: 44px;
+    background-color: #C4FEA9;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    padding: 10px 70px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.activate{
+    background-color: #487F2E;
+    color: #FEFA99;
+}
+
+.ukupno{
+    display: block;
+    height: 500px;
+}
+
+.naslov{
+    float: left;
+    width: 135px;
+    margin-left: 300px;
+    height: 50px;
+    font-size: 40px;
+    color: #2aa22a;
+    text-shadow: 0 0 10px #3c3c5d;
+    padding-top: 30px;
+}
+
+.slajder{
+    float: left;
+    display: block;
+    width: 500px;
+    padding-top: 30px;
+}
+  
+img{
+    margin-top: 50px;
+    width: 250px;
+    height: 350px; 
+}
+  
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 10px 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.animacija {
+    animation-name: fade;
+    animation-duration: 1s;
+}
+  
+@keyframes fade {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+.active {
+    background-color: #2aa22a;
+}
+  
+.tekst{
+    margin-top: 50px;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    float: right;
+    background-color:#b3ffb3;
+}
+
+.naslovslike{
+    color: #2aa22a;
+    text-shadow: 0 0 10px #3c3c5d;
+    text-align: center;
+    padding: 10px;
+}
+
+.godina{
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+    padding: 10px;
+}
+
+footer{
+    margin-top: auto;
+}
+
+footer p{
+    margin: 0;
+    padding: 10px;
+}
+

@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FEFA99;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1, h5, h2, a{
+    color: #50752D;
+}
+
+h2{
+    font-size: 42px;
+}
+
+nav{
+    width: 100%;
+    height: 44px;
+    background-color: #C4FEA9;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    padding: 10px 70px;
+}
+
+a{
+    text-decoration: none;
+}
+
+p:hover{
+    cursor: pointer;
+}
+
+.naziv{
+    margin-left: 50px;
+}
+
+.activate{
+    background-color: #487F2E;
+    color: #FEFA99;
+}
+
+img{
+    width: 100%;
+    height: 700px;
+}
+
+.drzava-wrapper {
+    left: 0;
+    top: 0;
+    width: 100px !important;
+}
+
+.drzava-wrapper img {
+    width: 50px;
+    height: 25px;
+}
+
+.srbija {
+    top: 50%;
+    left: 50%;
+}
+
+.madjarska {
+    top: 5px;
+    left: 30px;
+}
+
+.rumunija {
+    left: auto;
+    top: 85px;
+    right: 150px;
+}
+
+.bugarska {
+    top: auto;
+    left: auto;
+    bottom: 100px;
+    right: 0;
+}
+
+.makedonija {
+    left: auto;
+    top: auto;
+    bottom: 0px;
+    right: 150px;
+}
+
+.albanija {
+    left: 200px;
+    bottom: 10px;
+    top: auto;
+    right: auto;
+}
+
+.cg {
+    left: 50px;
+    top: 500px;
+    right: auto;
+}
+
+.bosna {
+    left: 30px;
+    top: 280px;
+    right: auto;
+}
+
+.hrvatska {
+    left: 15px;
+    top: 105px;
+    right: auto;
+}
+
+footer{
+    margin-top: auto;
+}
+
+footer p{
+    margin: 0;
+    padding: 10px;
+}
