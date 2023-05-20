@@ -42,7 +42,7 @@ a{
 }
 
 .container{
-    width: 643.5px !important;
+    width: 644px !important;
     height: 640px;
     border: 2px solid #fff;
 }
@@ -63,7 +63,7 @@ a{
 }
 
 .slike{
-    width: 64px;
+    width: 10%;
     height: 40px;
     display: inline;
     padding: 0;
