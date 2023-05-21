@@ -59,7 +59,7 @@
 
 <body>
     <div class="nav">
-        <h1>ELEKTRONSKI REČNIK</h1>
+        <h1>Elektronski rečnik</h1>
     </div>
     <div class="navigacija">
         <a href="index.php">Rečnik</a>

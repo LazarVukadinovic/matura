@@ -53,7 +53,7 @@
 
 <body>
     <div class="nav">
-        <h1>DODAVANJE REČI</h1>
+        <h1>Elektronski rečnik</h1>
     </div>
     <div class="navigacija">
         <a href="../">Rečnik</a>
