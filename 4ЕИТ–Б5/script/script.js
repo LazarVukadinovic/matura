@@ -1,6 +1,7 @@
-//onclick prelaz na novu stranicu
+// KONSTANTA SA NAZIVIMA INSTRUMENATA
 const vrste = ['zicani', 'zicani', 'specijalne', 'specijalne', 'specijalne', 'duvacki'];
 
+// PETLJA ZA DODAVANJE CLICK LISTENER-A -> OTVARANJE NOVOG PROZORA
 for(let i=0; i<6; i++)
 {
     document.getElementById('p'+(i+1)).addEventListener('click', function(){
@@ -8,7 +9,7 @@ for(let i=0; i<6; i++)
     });
 }
 
-//pustanje sounda
+// POSTAVLJANJE DOGADJAJA ZA FOKUS NA ELEMENT I IZLAZAK IZ FOKUSA ELEMENTA -> REPRODUKOVANJE ZVUKA
 for(let i=0; i<6; i++)
 {
     document.getElementById('img'+(i+1)).addEventListener('mouseover', function() {
@@ -20,11 +21,13 @@ for(let i=0; i<6; i++)
     });
 }
 
+// FUNKCIJA ZA REPRODUKOVANJE AUDIO ZAPISA
 function PlaySound(soundobj) {
     var thissound=document.getElementById(soundobj);
     thissound.play();
 }
 
+// FUNKCIJA ZA ZAUSTAVLJANJE REPRODUKCIJE AUDIO ZAPISA
 function StopSound(soundobj) {
     var thissound=document.getElementById(soundobj);
     thissound.pause();
