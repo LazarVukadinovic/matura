@@ -1,3 +1,6 @@
+/*
+    *petljom se dodaju Event Listener-i na male slicice i vrsi se promena glavne slike za kliknutu
+*/
 for(let i=1; i<11; i++)
 {
     document.getElementById('slike'+i.toString()).addEventListener('click', function() {
