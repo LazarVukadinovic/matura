@@ -4,7 +4,7 @@ Sajt za EN uputstvo: https://ultimatefosters.com/hosting/setup-a-virtual-host-in
 
 Koraci:
 1. Pravljenje virtuelnog hosta
-  - Putanja do 'httpd-vhosts' fajla: C:\xampp\apache\conf\extra
+  - Putanja do 'httpd-vhosts' fajla: **C:\xampp\apache\conf\extra**
   - Otvoriti 'httpd-vhosts.conf'
   - Prekopirati i urediti za vlastite potrebe: 
 
@@ -20,13 +20,13 @@ Koraci:
 
   - Sacuvati izmenjeni fajl
 
-2. Precicom na tastaturi Windows+R otvorite Run app i prekopirajte sledecu putanju: C:\Windows\System32\drivers\etc\hosts
+2. Precicom na tastaturi Windows+R otvorite Run app i prekopirajte sledecu putanju: **C:\Windows\System32\drivers\etc\hosts**
   - Otvorite pomocu **Visual Studio Code-a**
   - Dodajte sledecu liniju koda: 
 
 ```
 127.0.0.1       matura.com
 ```
-  - Sacuvajte komandom Ctrl+S i ako je potrebno dole desno 'Retry as Admin' pritisnuti
+  - Sacuvajte komandom Ctrl+S i ako je potrebno dole desno '**Retry as Admin**' pritisnuti
 
-3. Restartovati Apache i MySQL
+3. **Restartovati Apache i MySQL**
