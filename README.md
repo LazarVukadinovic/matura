@@ -27,6 +27,6 @@ Koraci:
 ```
 127.0.0.1       matura.com
 ```
-  - Sacuvajte komandom Ctrl+S i ako je potrebno dole desno 'Retry as Admin pritisnuti'
+  - Sacuvajte komandom Ctrl+S i ako je potrebno dole desno 'Retry as Admin' pritisnuti
 
 3. Restartovati Apache i MySQL
